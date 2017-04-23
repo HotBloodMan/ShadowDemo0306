@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="@dimen/app_item_width"
+        android:layout_height="@dimen/app_item_height"
+        android:layout_margin="13dp"
+        android:background="@drawable/background_selector2" >
+
+        <ImageView
+            android:id="@+id/app_icon"
+            android:layout_width="@dimen/detail_left"
+            android:layout_height="@dimen/detail_left"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/ic_launcher" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/detail_left"
+            android:layout_alignBottom="@id/app_icon"
+            android:layout_alignTop="@id/app_icon"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@id/app_icon" >
+
+            <TextView
+                android:id="@+id/app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:gravity="top"
+                android:text="应用名称"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_item_app_name" />
+
+
+
+            <TextView
+                android:id="@+id/app_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/app_name"
+                android:gravity="bottom"
+                android:text="13M"
+                android:textColor="@color/text_search"
+                android:textSize="@dimen/text_search_game" />
+
+            <TextView
+                android:id="@+id/app_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/app_name"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/app_size"
+                android:gravity="bottom"
+                android:text="100次"
+                android:textColor="@color/text_search"
+                android:textSize="@dimen/text_search_game" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

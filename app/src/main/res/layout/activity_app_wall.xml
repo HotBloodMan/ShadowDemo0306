@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_radio_bg" >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/detail_left"
+        android:layout_marginTop="@dimen/programa_top"
+        android:text="最新"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_detail_app_name" />
+
+
+    <ImageView
+        android:id="@+id/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="@dimen/detail_icon_top"
+        android:visibility="invisible"
+        android:src="@drawable/top_focused" />
+
+    <ImageView
+        android:id="@+id/bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/detail_left"
+        android:layout_marginLeft="92dp"
+        android:src="@drawable/bottom_focused" />
+
+    <ListView
+        android:id="@+id/app_wall_listview"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom"
+        android:layout_below="@id/top"
+        android:layout_marginBottom="42dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="42dp"
+        android:divider="@android:color/transparent"
+        android:nextFocusDown="@id/app_wall_listview"
+        android:nextFocusUp="@id/app_wall_listview"
+        android:scrollbars="none" >
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/detail_recommend_icon"
+        android:layout_marginLeft="57dp"
+        android:layout_marginRight="@dimen/programa_gridview_left"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@id/app_wall_listview" >
+
+        <GridView
+            android:id="@+id/app_wall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:verticalSpacing="@dimen/search_game_left" >
+        </GridView>
+    </RelativeLayout>
+
+</RelativeLayout>

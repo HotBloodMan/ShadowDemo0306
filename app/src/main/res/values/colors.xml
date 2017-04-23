@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 白色 -->
+    <color name="chanal_now">#0b83e2</color>
+    <color name="twhite">#50FFFFFF</color>
+    <!-- 黑色 -->
+
+    <color name="transparent">#00000000</color>
+    <color name="black_half_transparent">#88000000</color>
+    <color name="half_ransparent_1">#fa2b2316</color>
+    <!-- <color name="black_half_ransparent_1">#99000000</color> -->
+    <!-- 灰色 -->
+    <color name="gray_demo">#FF999999</color>
+    <color name="gray_half_demo">#FFC9C9C9</color>
+    <color name="gray_half_3d3d3d">#FF3D3D3D</color>
+
+    <!-- tab栏默认字体颜色 -->
+    <color name="gray_tab_txt_color">#939eae</color>
+    <color name="gray">#ff969696</color>
+    <color name="annm_content">#ff464646</color>
+    <color name="channal_above">#B3000000</color>
+    <color name="title_txt">#6b4f2f</color>
+    <!-- 公告字体颜色 -->
+    <color name="color_header_text">#F7EDE1</color>
+    <!-- 还报销筛选 -->
+    <color name="tv_dpf_title">#291e10</color>
+    <color name="flitercontent">#60472e</color>
+    <color name="tv_programtype">#3b2b18</color>
+    <!-- 推荐位字体颜色 -->
+    <color name="tv_clearall_txtcolor">#271e14</color>
+    <color name="live_header_item_bg">#FFC1D4E7</color>
+    <!-- 详情字体颜色 -->
+    <color name="detail_txt_name">#FFFFFF</color>
+    <color name="detail_txt_content">#FFFFFF</color>
+    <color name="detail_price_textcolor">#ffc641</color>
+    <!-- 直播背景 -->
+    <color name="live_header_bg">#CC121315</color>
+    <color name="live_list_show_bg">#CCA2A2A2</color>
+    <color name="live_header_txt_nor">#FF5B5B5B</color>
+    <color name="home_tab_header_txt_nor">#FFFFFFFF</color>
+    <color name="live_header_txt_sel">#FFFFFFFF</color>
+    <color name="live_label_txt_nor">#FF000000</color>
+    <color name="live_header_label_txt_sel">#FF20BDFF</color>
+    <!-- 设置 -->
+    <color name="setting_dlg_label">#FF60472E</color>
+    <color name="setting_dlg_line">#FFA39F91</color>
+    <color name="setting_dlg_bg">#FFDFD9C8</color>
+
+    <!-- footer -->
+    <color name="footer_txt_focused">#FFFFFF</color>
+    <color name="footer_txt_normal">#644A35</color>
+    <color name="background_above">#5f000000</color>
+
+    <!-- <color name="detail_introduction_bg">#99000000</color> -->
+    <color name="listitem_onfocus">#FF1882EB</color>
+    <color name="listitem_select">#99ffffff</color>
+    <color name="black_60_half">#99000000</color>
+    <color name="black_30_half">#4c000000</color>
+    <color name="list_longitem_onfocus">#4c000000</color>
+    <color name="red1">#f50000</color>
+    <color name="order_record_movie_list_item_txtcolor">#cdced1</color>
+    <color name="live_lable_bg">#4c000000</color>
+    <color name="productpag_focues_bg">#1981eb</color>
+    <color name="all_app_bk">#2fcffd</color>
+
+    <!-- 以下刘观星 -->
+
+    <color name="green">#00FF00</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_grade">#6e7681</color>
+    <color name="text_white">#d6d6d6</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#edd17a</color>
+    <color name="yellow_dark">#ffc100</color>
+    <color name="text_search">#4a7b9c</color>
+    <color name="selected_bg">#4588e0</color>
+    <color name="edittext_bg">#47586e</color>
+    <color name="blue">#225eac</color>
+    <color name="grade_pop">#00264c</color>
+
+</resources>
